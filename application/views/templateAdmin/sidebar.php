@@ -16,12 +16,11 @@
           
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-users"></i> <span>Jardines</span> <i class="fa fa-angle-left pull-right"></i>
+            <i class="fa fa-university" aria-hidden="true"></i> <span>Jardines</span> <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
-              <li><a href="<?php echo base_url()?>funcionarios/Index/registroFuncionarios"><i class="fa fa-circle-o text-aqua"></i> Registro Funcionarios</a></li>
-              <li><a href="<?php echo base_url()?>funcionarios/Index/listadoFuncionarios"><i class="fa fa-circle-o text-aqua"></i> Listado Funcionarios</a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> Reporte Funcionarios</a></li>
+              <li><a href="<?php echo base_url()?>jardines/Index/registroJardin"><i class="fa fa-circle-o text-aqua"></i> Registro Jardín</a></li>
+              <li><a href="<?php echo base_url()?>jardines/Index/listadoJardines"><i class="fa fa-circle-o text-aqua"></i> Listado Jardines</a></li>
           </ul>
         </li>
       </ul>

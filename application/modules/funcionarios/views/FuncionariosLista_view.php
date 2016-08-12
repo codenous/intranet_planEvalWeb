@@ -27,40 +27,74 @@
         <div class="box-body no-padding">
             <table class="table">
                 <tr>
-                  <th style="width: 15%">Rut</th>
-                  <th style="width: 20%">Nombres</th>
-                  <th style="width: 20%">Cargo</th>
+                  <th style="width: 10%">Rut</th>
+                  <th style="width: 17%">Nombres</th>
+                  <th style="width: 15%">Cargo</th>
                   <th style="width: 20%">F. Ingreso</th>
-                  <th style="width: 5%">Ver</th>
-                  <th style="width: 5%">Mod.</th>
-                  <th style="width: 5%">Elim.</th>
+                  <th style="width: 15%;text-align: center;" colspan="3">Acciones</th>
                 </tr>
                 <tr>
                     <td>11.222.333.4</td>
                     <td>Marcela Durán Rojas</td>
-                    <td><span class="label bg-green">Educadora de Párvulos</span></td>
+                    <td>Educadora de Párvulos</td>
                     <td>10 de Noviembre de 2010</td>
-                    <td><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></td>
-                    <td><i class='fa fa-trash-o fa-2x'></i></td>
+                    <td>
+                        <a href="#" data-toggle="tooltip" title="Abrir Perfil">
+                            <i class="fa fa-folder-open fa-1x" aria-hidden="true" style="color:#00a0f0;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#" data-toggle="tooltip" title="Editar">
+                            <i class="fa fa-pencil-square-o fa-1x" aria-hidden="true" style="color:#7fbb00;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#" data-toggle="tooltip" title="Eliminar">
+                            <i class="fa fa-times" aria-hidden="true" style="color:#ff3322;font-size:14pt"></i>
+                        </a>
+                    </td>
                 </tr>
                 <tr>
                     <td>11.222.333.4</td>
                     <td>Marcela Durán Rojas</td>
-                    <td><span class="label bg-aqua">Asistente de Párvulos</span></td>
+                    <td>Asistente de Párvulos</td>
                     <td>10 de Noviembre de 2010</td>
-                    <td><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></td>
-                    <td><i class='fa fa-trash-o fa-2x'></i></td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-folder-open fa-1x" aria-hidden="true" style="color:#00a0f0;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-pencil-square-o fa-1x" aria-hidden="true" style="color:#7fbb00;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-times" aria-hidden="true" style="color:#ff3322;font-size:14pt"></i>
+                        </a>
+                    </td>
                 </tr>
                 <tr>
                     <td>11.222.333.4</td>
                     <td>Marcela Durán Rojas</td>
-                    <td><span class="label bg-purple">Directora de Jardín</span></td>
+                    <td>Directora de Jardín</td>
                     <td>10 de Noviembre de 2010</td>
-                    <td><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i></td>
-                    <td><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></td>
-                    <td><i class='fa fa-trash-o fa-2x'></i></td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-folder-open fa-1x" aria-hidden="true" style="color:#00a0f0;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-pencil-square-o fa-1x" aria-hidden="true" style="color:#7fbb00;font-size:13pt"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <i class="fa fa-times" aria-hidden="true" style="color:#ff3322;font-size:14pt"></i>
+                        </a>
+                    </td>
                 </tr>
                 
               </table>
