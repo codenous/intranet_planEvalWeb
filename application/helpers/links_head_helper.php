@@ -28,7 +28,7 @@ function getLinks()
         <script src="'.base_url().'assets/js/app.js"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="'.base_url().'assets/js/demo.js"></script>
+        <script src="'.base_url().'assets/plugins/chartjs/Chart.min.js"></script>
         <script src="'.base_url().'assets/plugins/steps/jquery.steps.min.js"></script>';
-    
     return $link;
 }

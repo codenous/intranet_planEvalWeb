@@ -29,7 +29,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <br>
-                                   <p class="lead">Datos del Jardín</p>
+                                    <p class="lead">Datos del Jardín</p>
                                 </div>
                             </div>
                         </div>    
@@ -37,37 +37,37 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Nombre Jardín</label>
-                                    <input type="text" class="form-control" placeholder="jardín Infantil Mis Primeros Pasos">
+                                    <input type="text" class="form-control" value="jardín Infantil Mis Primeros Pasos">
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="form-group">
                                     <label>Fono Contacto</label>
-                                    <input type="text" class="form-control" placeholder="41 2592407">
+                                    <input type="text" class="form-control" value="41 2592407">
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="form-group">
                                     <label>Correo Contacto</label>
-                                    <input type="text" class="form-control" placeholder="correocontactojardin@jardin.cl">
+                                    <input type="text" class="form-control" value="correocontactojardin@jardin.cl">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Calle</label>
-                                    <input type="text" class="form-control" placeholder="Manuel Rodriguez">
+                                    <input type="text" class="form-control" value="Manuel Rodriguez">
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="form-group">
                                     <label>Nro.</label>
-                                    <input type="text" class="form-control" placeholder="4568">
+                                    <input type="text" class="form-control" value="4568">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Sector</label>
-                                    <input type="text" class="form-control" placeholder="Villa Cap">
+                                    <input type="text" class="form-control" value="Villa Cap">
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -76,7 +76,7 @@
                                     <select class="form-control">
                                         <option> Comunas</option>
                                         <option>------------------</option>
-                                        <option> Talcahuano</option>
+                                        <option selected="selected"> Talcahuano</option>
                                         <option> Concepción</option>
                                         <option> Chiguayante</option>
                                         <option> Tomé</option>
@@ -86,13 +86,13 @@
                             <div class="col-lg-2">
                                 <div class="form-group">
                                     <label>Matrícula</label>
-                                    <input type="text" class="form-control" placeholder="125.000">
+                                    <input type="text" class="form-control" value="125.000">
                                 </div>
                             </div>
                             <div class="col-lg-2">
                                 <div class="form-group">
                                     <label>Mensualidad</label>
-                                    <input type="text" class="form-control" placeholder="250.000">
+                                    <input type="text" class="form-control" value="250.000">
                                 </div>
                             </div>
                         </div>
@@ -112,14 +112,91 @@
                             </div>
                         </div>
                         <div class="row">
-                            <br>
-                            <div id="campos_html">
+                            <div id="campos_html"><br>
+                                <div class="div_1" id="divdiv">
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>Datos Directora 1</label>
+                                            <input type="text" class="form-control" value="11.222.333-4">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Margaret">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Alejandra">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Rocha">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Gonzalez">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label><br>
+                                            <button type="button" class="btn btn-warning eliminar" id="div_1"><i class="fa fa-trash-o"></i> Eliminar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="div_2" id="divdiv">    
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>Datos Directora 2</label>
+                                            <input type="text" class="form-control" value="11.222.333-4">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Margaret">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Alejandra">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Rocha">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label>
+                                            <input type="text" class="form-control" value="Gonzalez">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label>&nbsp</label><br>
+                                            <button type="button" class="btn btn-warning eliminar" id="div_2"><i class="fa fa-trash-o"></i> Eliminar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 
                             </div>
                         </div>
                     </div>
                     <div class="box-footer">
-                        <button type="submit" class="btn btn-danger pull-right"><i class="fa fa-save"></i> Agregar Jardín</button>
+                        <button type="submit" class="btn btn-danger pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Jardín</button>
                     </div>
                 </form>
                 </div>
@@ -134,8 +211,7 @@ $(document).ready(function() {
     var contenedor      = $("#campos_html"); //ID del contenedor
     var AddButton       = $("#agregarCampo"); //ID del Botón Agregar
 
-    //var x = número de campos existentes en el contenedor
-    var x = $("#campos_html div").length + 1;
+    var x = $("#campos_html #divdiv").length+1;
     var FieldCount = x-1; //para el seguimiento de los campos
 
     $(AddButton).click(function (e) {
