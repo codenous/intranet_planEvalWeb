@@ -15,6 +15,8 @@ function getLinks()
         <link rel="stylesheet" href="'.base_url().'assets/css/skins/_all-skins.min.css">
         
         <link rel="stylesheet" href="'.base_url().'assets/plugins/steps/jquery.steps.css">
+        <link rel="stylesheet" href="'.base_url().'assets/plugins/datepicker/datepicker3.css">
+        <link rel="stylesheet" href="'.base_url().'assets/css/estilos.css">
 
 
         <script src="'.base_url().'assets/js/jquery.js"></script>
@@ -28,7 +30,12 @@ function getLinks()
         <script src="'.base_url().'assets/js/app.js"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="'.base_url().'assets/js/demo.js"></script>
-        <script src="'.base_url().'assets/plugins/chartjs/Chart.min.js"></script>
+        <script src="'.base_url().'assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+            
+            <script src="'.base_url().'assets/plugins/input-mask/jquery.inputmask.js"></script>
+            <script src="'.base_url().'assets/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+            <script src="'.base_url().'assets/plugins/input-mask/jquery.inputmask.extensions.js"></script>    
+                
         <script src="'.base_url().'assets/plugins/steps/jquery.steps.min.js"></script>';
     return $link;
 }
